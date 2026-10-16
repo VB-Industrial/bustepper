@@ -1,0 +1,9 @@
+/build*/
+*.su
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.key
+/ui/preview*.png

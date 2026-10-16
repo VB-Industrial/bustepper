@@ -1,0 +1,5 @@
+Source: /home/robot/projects/STM32_TMC5160_SPI/Core/Inc/tmc5160.h
+Commit: df92511d48c9c74a5ac68935112c3eb117c673f6
+SHA256: 00e3ded64d93aa12c60120e37c51bd2a15b2555a5037f8c819f8d5c021ee21f7
+Source working tree (header and configuration):
+Copied verbatim. robot_config.h remains owned by the bench.

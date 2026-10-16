@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "groobz.command-buttons",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools"
+    ]
+}

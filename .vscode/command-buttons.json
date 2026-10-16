@@ -1,0 +1,28 @@
+{
+    "buttons": [
+        {
+            "id": "build-firmware",
+            "label": "$(tools) Build",
+            "task": "Build firmware",
+            "tooltip": "Configure and build bustepper (Release)",
+            "alignment": "left",
+            "priority": 102
+        },
+        {
+            "id": "flash-firmware-stlink",
+            "label": "$(plug) Flash ST-Link",
+            "task": "OpenOCD: Flash project (SWD)",
+            "tooltip": "Flash existing build/bustepper.elf via SWD, verify and restart MCU",
+            "alignment": "left",
+            "priority": 101
+        },
+        {
+            "id": "build-flash-firmware",
+            "label": "$(rocket) Build + Flash",
+            "task": "Build + Flash",
+            "tooltip": "Configure, build, flash via ST-Link, verify and restart MCU",
+            "alignment": "left",
+            "priority": 100
+        }
+    ]
+}

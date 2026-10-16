@@ -1,0 +1,16 @@
+[Unit]
+Description=BUStepper HTTP/WebSocket UI and Cyphal bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/bustepper
+ExecStart=/opt/yakut/venv/bin/python /home/pi/bustepper/can_bridge.py
+Restart=on-failure
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
